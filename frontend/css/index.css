@@ -1,3 +1,22 @@
 h1{
     color:red;
 }
+#heading2{
+    color:blue;
+}
+.heading4{
+    color:green;
+}
+.heading5{
+    color:purple;
+}
+.heading6{
+    color:orange;
+}
+.Para{
+    font-size:20px;
+    border:2px solid black;
+    color:rgb(255, 0, 132);
+    padding:20px;
+    text-align:center;
+}
