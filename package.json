@@ -1,0 +1,23 @@
+{
+  "name": "autosuggest",
+  "version": "1.0.0",
+  "description": "Checking my git setup\r 1.add \r 2.commit with message\r 3.push",
+  "homepage": "https://github.com/24wh1a05a5/autosuggest#readme",
+  "bugs": {
+    "url": "https://github.com/24wh1a05a5/autosuggest/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/24wh1a05a5/autosuggest.git"
+  },
+  "license": "ISC",
+  "author": "",
+  "type": "commonjs",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "dependencies": {
+    "express": "^5.2.1"
+  }
+}
