@@ -1,54 +1,73 @@
-h1{
-    color:red;
+h1 {
+    color: red;
 }
-#heading2{
+#heading-2{
     color:blue;
-}
-.heading4{
-    color:green;
-}
-.heading5{
-    color:purple;
-}
-.heading6{
+}  
+.heading{
     color:orange;
 }
-.Para{
-    font-size:20px;
+.para{
     border:2px solid black;
-    color:rgb(255, 0, 132);
-    padding:20px;
-    text-align:center;
+    border-style:solid;
+    padding: 20px;
+    text-align: center;
 }
 .navbar{
-    border:2px solid black;
-    background-color:rgb(0, 255, 255);
-    padding:10px;
-    text-align:center;
+    border: 3px;
+    border-style: solid;
+    border-color: black;
+    padding: 15px;
+    background-color: brown;
+    text-align: center;
 }
-.navbar a{
-    text-decoration:none;
-    color:rgb(255, 0, 132);
-    font-size:20px;
-    padding:10px;
+.navbar a { 
+    color: aquamarine;
+    padding: 15px;
+    text-decoration: none;
 
 }
-.navbar a:hover{
-   
-    background-color:rgb(204, 255, 0);
+.navbar a:hover {
+    background-color: rgb(213, 66, 66);
+    color: white;
 }
-body{
-    margin:0;
+body {
+    margin: 0px;
 }
-.card{
-    boarder:2px solid black;
-    text-align:center;
-    
+.card {
+    border:2px solid black;
+    width:300px;
+    text-align: center;
 }
 .card img{
-    padding:20px;
-    boarder:2px solid black;
-    width:250px;
-    boarder: radius 20px;
 
+    width: 100%;
+
+}
+.card {
+    width: 300px;
+    margin: 50px auto;
+    padding: 15px;
+    border: 2px solid black;
+    border-radius: 10px;
+    text-align: center;
+}
+
+.card img {
+    width: 100%;
+    border-radius: 10px;
+}
+
+.card h2 {
+    margin-top: 15px;
+}
+
+.card p {
+    color: gray;
+    font-size: 18px;
+}
+button{
+    padding:10px 20px;
+    margin-top:10px;
+    cursor:pointer;
 }
