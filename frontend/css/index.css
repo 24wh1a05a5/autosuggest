@@ -40,3 +40,15 @@ h1{
 body{
     margin:0;
 }
+.card{
+    boarder:2px solid black;
+    text-align:center;
+    
+}
+.card img{
+    padding:20px;
+    boarder:2px solid black;
+    width:250px;
+    boarder: radius 20px;
+
+}
